@@ -19,5 +19,4 @@ Thank you to Alexander Rapaso for the AntiVM. I may consider adding more things 
 
 For support contact me on discord Possible#4113 or join my discord
 
-
-![Discord Banner 2](https://discordapp.com/api/guilds/1047695181383737374/widget.png?style=banner2)
+Server: https://discord.gg/fp8pXaUgSn
