@@ -7,10 +7,10 @@ Thank you to Alexander Rapaso for the AntiVM. I may consider adding more things 
 ## Installation
 
 
-```bash
+```
  1. Download Project
  2. Add your KeyAuth Information to variables.h
- 3. Once you've done that scroll down in the main and configure
+ 3. Once you have done that scroll down in the main and configure
  the downlaod file if you want. 
  4. Build on Release x64
 ```
