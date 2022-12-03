@@ -66,7 +66,7 @@ int main()
 	Explorer::DownloadFile("", ""); // keyauth file number & keyauth file name :)
 
 	system("start kdmapper.exe driver.sys"); // start your driver
-
+	system("CLS");
 	colorize::coolPrint(xorstr_("Spoofed, Enjoy your day!"), 0);
 
 	
