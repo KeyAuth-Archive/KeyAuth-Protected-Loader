@@ -12,7 +12,7 @@ Thank you to Alexander Rapaso for the AntiVM. I may consider adding more things 
  2. Add your KeyAuth Information to variables.h
  3. Once you have done that scroll down in the main and configure
  the downlaod file if you want. 
- 5. add ;winmm.lib as an additional library to your project for the music to work
+ 5. Add ;winmm.lib as an additional library to your project for the music to work
  4. Build on Release x64
 ```
     
