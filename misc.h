@@ -38,4 +38,13 @@ namespace Misc {
         SetWindowPos(hwnd, NULL, 0, 0, 0, 0, SWP_FRAMECHANGED | SWP_NOMOVE | SWP_NOSIZE | SWP_NOZORDER | SWP_NOOWNERZORDER);
 
     }
+
+    void PlayMusic(std::string audiofile_str) // play music lol
+    {
+        std::fstream fp;
+
+        PlaySound(audiofile_str.c_str(), NULL, SND_FILENAME | SND_LOOP); //SND_FILENAME or SND_LOOP
+
+        fp.close();
+    }
 }
