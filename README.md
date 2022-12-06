@@ -24,4 +24,4 @@ Server: https://discord.gg/fp8pXaUgSn
 
 
 ## Setup Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OmHy_92znZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/embed/OmHy_92znZE
