@@ -13,7 +13,8 @@ Thank you to Alexander Rapaso for the AntiVM. I may consider adding more things 
  3. Once you have done that scroll down in the main and configure
  the downlaod file if you want. 
  5. Add ;winmm.lib as an additional library to your project for the music to work
- 4. Build on Release x64
+ 6. Add ;discord-rpc.lib as an additional lobrary to your project, also change inlcude directories to the folder which I have provided for the RPC 
+ 7. Build on Release x64
 ```
     
 ## Support
