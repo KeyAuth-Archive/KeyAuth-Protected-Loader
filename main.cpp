@@ -19,7 +19,7 @@ static std::tm timet_to_tm(time_t timestamp);
 int main()
 {
 	SetConsoleTitleA(skCrypt(" Ohionese Loader "));
-	ShellExecute(0, 0, "http://www.discord.gg/fp8pXaUgSn", 0, 0, SW_SHOW); // wow join my server u bastard!
+	
 	Misc::MoveCenter();
 	Misc::RemoveExtras();
 	Misc::PlayMusic("Freestyle.wav"); // this is downloaded locally, if you're going to use it just make sure you set the directory first then play the song
