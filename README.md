@@ -19,6 +19,3 @@ If you need any help just scroll down and join my server
  6. Add ;discord-rpc.lib as an additional lobrary to your project, also change inlcude directories to the folder which I have provided for the RPC 
  7. Build on Release x64
 ```
-
-## Setup Video
-https://www.youtube.com/embed/OmHy_92znZE
